@@ -45,14 +45,11 @@ public class 모의SW역량테스트_5658_보물상자비밀번호 {
 			Collections.sort(res, Collections.reverseOrder());
 			
 			System.out.printf("#"+t+" "+Long.parseLong(res.get(K-1), 16)+"\n");
-			
-//			 System.out.println(res);
 		}
 	}
 
 	private static void turn(ArrayList<Character> list) {
 		list.add(list.remove(0));
-//		System.out.println(ss);
 	}
 
 	private static void save(ArrayList<Character> list) {
@@ -63,7 +60,6 @@ public class 모의SW역량테스트_5658_보물상자비밀번호 {
 				s += list.get(line*i + j);
 			}
 			ss.add(s);
-//			System.out.println(s);
 		}
 	}
 
